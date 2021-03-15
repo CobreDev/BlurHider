@@ -11,8 +11,8 @@ BOOL PHEnabled;
 -(void)didMoveToWindow {
 	if(PHEnabled) {
 		NSLog(@"PODHIDER: didMoveToWindow");
-		%orig;
 		self.hidden = YES;
+		%orig;
 	}
 	else {
 		%orig;
