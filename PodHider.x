@@ -1,3 +1,13 @@
+#import <Cephei/HBPreferences.h>
+#import <CepheiPrefs/HBRootListController.h>
+#import <CepheiPrefs/HBAppearanceSettings.h>
+
+static NSString *const PHPreferencesDomain = @"dev.cobre.podhider";
+static NSString *const PHPreferencesEnabledKey = @"PHEnabled";
+
+HBPreferences *preferences;
+BOOL PHEnabled;
+
 @import UIKit;
 
 @interface SBHLibraryCategoryPodBackgroundView : UIView
@@ -8,11 +18,7 @@
 // Not a huge fan of _updateVisualStyle since it's called like 16 times, but it's not called unless you respring.
 -(void)_updateVisualStyle {
 
-	NSDictionary *bundleDefaults = [[NSUserDefaults standardUserDefaults] persistentDomainForName:@"dev.cobre.podhider"];
-
-	id isEnabled = [bundleDefaults valueForKey:@"PHEnabled"];
-
-	if ([isEnabled isEqual:@1]) {
+	if (PHEnabled) {
 		%orig;
 		self.hidden = YES;
 		NSLog(@"PODHIDER: _updateVisualStyle");
@@ -22,3 +28,14 @@
 	}
 }
 %end
+
+%ctor {
+    preferences = [[HBPreferences alloc] initWithIdentifier:@"dev.cobre.podhider"];
+    [preferences registerDefaults:@{
+        @"PHEnabled": @YES,
+    }];
+
+    [preferences registerBool:&PHEnabled default:YES forKey:@"PHEnabled"];
+
+    NSLog(@"Am I enabled? %i", [preferences boolForKey:@"PHEnabled"]);
+}

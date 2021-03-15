@@ -4,7 +4,7 @@ Version: 1.0b1
 Architecture: iphoneos-arm
 Maintainer: CobreDev <cooper@cooperhull.com>
 Author: CobreDev <cooper@cooperhull.com>
-Depends: mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Section: Tweaks
 Description: Hides App Library category backgrounds 
 Depiction: https://repo.cobre.dev/depictions/podhider/

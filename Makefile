@@ -11,6 +11,7 @@ TWEAK_NAME = PodHider
 
 PodHider_FILES = PodHider.x
 PodHider_CFLAGS = -fobjc-arc
+PodHider_EXTRA_FRAMEWORKS += Cephei CepheiPrefs
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 SUBPROJECTS += podhiderprefs
