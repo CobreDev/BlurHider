@@ -1,6 +1,5 @@
-Package: dev.cobre.podhider
+Package: com.cobre.podhider
 Name: PodHider
-Version: 1.0b1
 Architecture: iphoneos-arm
 Maintainer: CobreDev <cooper@cooperhull.com>
 Author: CobreDev <cooper@cooperhull.com>
@@ -9,3 +8,5 @@ Section: Tweaks
 Description: Hides App Library category backgrounds 
 Depiction: https://repo.cobre.dev/depictions/podhider/
 Sileodepiction: https://raw.githubusercontent.com/CobreDev/repo/master/sileodepictions/PodHider.json
+Version: 1.0b1-11+debug
+Installed-Size: 444

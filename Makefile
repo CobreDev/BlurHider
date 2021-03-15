@@ -9,7 +9,9 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = PodHider
 
-PodHider_FILES = Tweak.x
+PodHider_FILES = PodHider.x
 PodHider_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += podhiderprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
