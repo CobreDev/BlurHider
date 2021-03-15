@@ -8,12 +8,11 @@
 BOOL PHEnabled;
 
 %hook SBHLibraryCategoryPodBackgroundView
-// Not a huge fan of _updateVisualStyle since it's called like 16 times, but it's not called unless you respring.
 -(void)didMoveToWindow {
 	if(PHEnabled) {
+		NSLog(@"PODHIDER: didMoveToWindow");
 		%orig;
 		self.hidden = YES;
-		NSLog(@"PODHIDER: didMoveToWindow");
 	}
 	else {
 		%orig;

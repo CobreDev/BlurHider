@@ -8,7 +8,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = PodHider
 
-PodHider_FILES = PodHider.x
+PodHider_FILES = Podhider.xm
 PodHider_CFLAGS = -fobjc-arc
 PodHider_EXTRA_FRAMEWORKS += Cephei
 
