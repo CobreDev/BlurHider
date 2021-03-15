@@ -39,6 +39,8 @@
 			<string>PHEnabled</string>
 			<key>label</key>
 			<string>Switch Label</string>
+			<key>tintOnColor</key>
+			<string>#C36100</string>
 			<key>PostNotification</key>
 			<string>dev.cobre.podhiderprefs/ReloadPrefs</string>
 		</dict>
@@ -71,7 +73,18 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Divider</string>
+			<string></string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>cellClass</key>
+     		<string>HBTintedTableCell</string>
+			<key>action</key>
+			<string>respring</string>
 		</dict>
 
 	</array>
