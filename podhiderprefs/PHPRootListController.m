@@ -1,6 +1,16 @@
 #include "PHPRootListController.h"
 
+#define THEME_COLOR                                                    \
+   [UIColor colorWithRed:0.96                                          \
+                   green:0.74                                          \
+                    blue:0.00                                          \
+                   alpha:1.00];
+				   
 @implementation PHPRootListController
+
++ (UIColor *)hb_tintColor {
+   return THEME_COLOR;
+ }
 
 - (NSArray *)specifiers {
 	if (!_specifiers) {
@@ -8,6 +18,10 @@
 	}
 
 	return _specifiers;
+}
+
+-(void)respring {
+  [HBRespringController respring];
 }
 
 @end

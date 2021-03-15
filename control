@@ -1,11 +1,9 @@
 Package: dev.cobre.podhider
 Name: PodHider
-Version: 1.0b1
+Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: CobreDev <cooper@cooperhull.com>
-Author: CobreDev <cooper@cooperhull.com>
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Description: An awesome MobileSubstrate tweak!
+Maintainer: CobreDev
+Author: CobreDev
 Section: Tweaks
-Description: Hides App Library category backgrounds 
-Depiction: https://repo.cobre.dev/depictions/podhider/
-Sileodepiction: https://raw.githubusercontent.com/CobreDev/repo/master/sileodepictions/PodHider.json
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.15.1)

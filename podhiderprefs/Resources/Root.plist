@@ -4,11 +4,23 @@
 <dict>
 	<key>items</key>
 	<array>
+
 		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>PodHiderPrefs First Page</string>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>headerCellClass</key>
+		    <string>HBPackageNameHeaderCell</string>
+		    <key>packageIdentifier</key>
+		    <string>dev.cobre.podhider</string>
+			<key>titleColor</key>
+    		<string>#D98035</string>
+    		<key>subtitleColor</key>
+			<string>#C36100</string>
+		    <key>backgroundGradientColors</key>
+		    <array>
+		        <string>#5B3100</string>
+		        <string>#5B3100</string>
+		    </array>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -22,14 +34,46 @@
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
-			<string>dev.cobre.podhider</string>
+			<string>dev.cobre.podhiderprefs</string>
 			<key>key</key>
 			<string>PHEnabled</string>
 			<key>label</key>
-			<string>Label</string>
+			<string>Switch Label</string>
 			<key>PostNotification</key>
-			<string>dev.cobre.podhider/ReloadPrefs</string>
+			<string>dev.cobre.podhiderprefs/ReloadPrefs</string>
 		</dict>
+
+		<!-- Standard size: -->
+		<dict>
+		    <key>cellClass</key>
+		    <string>HBTwitterCell</string>
+		    <key>label</key>
+		    <string>CobreDev</string>
+		    <key>user</key>
+		    <string>CobreDev</string>
+		</dict>
+
+		<!-- Big size:
+		<dict>
+		    <key>big</key>
+		    <true/>
+		    <key>cellClass</key>
+		    <string>HBTwitterCell</string>
+		    <key>height</key>
+		    <integer>56</integer>
+		    <key>label</key>
+		    <string>CobreDev</string>
+		    <key>user</key>
+		    <string>CobreDev</string>
+		</dict> -->
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Divider</string>
+		</dict>
+
 	</array>
 	<key>title</key>
 	<string>PodHiderPrefs</string>

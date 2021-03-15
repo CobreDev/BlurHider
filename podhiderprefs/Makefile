@@ -4,7 +4,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = PodHiderPrefs
 
-PodHiderPrefs_FILES = $(wildcard *.m)
+PodHiderPrefs_FILES = PHPRootListController.m PHPSwitchWithInfoCell.m
 PodHiderPrefs_FRAMEWORKS = UIKit
 PodHiderPrefs_PRIVATE_FRAMEWORKS = Preferences
 PodHiderPrefs_INSTALL_PATH = /Library/PreferenceBundles
