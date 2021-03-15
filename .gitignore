@@ -2,3 +2,4 @@
 ._*
 packages
 *.deb
+.DS_Store
