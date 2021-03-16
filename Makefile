@@ -6,12 +6,12 @@ INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = PodHider
+TWEAK_NAME = BlurHider
 
-PodHider_FILES = Podhider.xm
-PodHider_CFLAGS = -fobjc-arc
-PodHider_EXTRA_FRAMEWORKS += Cephei
+BlurHider_FILES = BlurHider.xm
+BlurHider_CFLAGS = -fobjc-arc
+BlurHider_EXTRA_FRAMEWORKS += Cephei
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += podhiderprefs
+SUBPROJECTS += blurhiderprefs
 include $(THEOS_MAKE_PATH)/aggregate.mk

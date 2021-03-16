@@ -1,9 +1,10 @@
-Package: dev.cobre.blurhider
-Name: BlurHider
+Package: dev.cobre.podhider
+Name: PodHider
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Hides blurred backgrounds of App Library categories, Folders, and Dock
+Description: An awesome MobileSubstrate tweak!
 Maintainer: CobreDev
 Author: CobreDev
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.15.1)
+Installed-Size: 904

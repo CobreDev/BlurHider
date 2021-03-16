@@ -1,0 +1,14 @@
+# ninja log v5
+9	766	1615858593703670129	.dragon/build/arm64e/PHPRootListController.m.o	5c0569ce375fb95f
+5	794	1615858593731516985	.dragon/build/arm64/PHPRootListController.m.o	4e25ce535169b221
+0	814	1615858593749140728	.dragon/build/armv7/PHPRootListController.m.o	f75bfbf99879d62f
+1	820	1615858593754306619	.dragon/build/armv7/PHPSwitchWithInfoCell.m.o	e37da95eb2343132
+3	857	1615858593789906393	.dragon/build/arm64/PHPSwitchWithInfoCell.m.o	54bdc85b01f5d6ff
+6	859	1615858593795815754	.dragon/build/arm64e/PHPSwitchWithInfoCell.m.o	fd841e800e163b0a
+857	1281	1615858594218139103	.dragon/build/PodHiderPrefs.arm64	a34bcd2f7a6a0f6a
+820	1284	1615858594220637275	.dragon/build/PodHiderPrefs.armv7	6243f76663a1ed2e
+859	1289	1615858594224039113	.dragon/build/PodHiderPrefs.arm64e	293f3d20b68246a3
+1289	1328	1615858594273710685	.dragon/sign/.dragon/_/Library/PodHiderPrefs/PodHiderPrefs.bundle/PodHiderPrefs.unsym	673eb6afa07ab14c
+1328	1459	1615858594405182445	.dragon/sign/.dragon/_/Library/PodHiderPrefs/PodHiderPrefs.bundle/PodHiderPrefs.unsigned	1ac1783799c94e54
+1459	1508	1615858594453744221	.dragon/_/Library/PodHiderPrefs/PodHiderPrefs.bundle/PodHiderPrefs	db328df837bcd6d4
+0	20	0	stage	310410c96c5327d7
