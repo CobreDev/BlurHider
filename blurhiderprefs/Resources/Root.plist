@@ -5,13 +5,14 @@
 	<key>items</key>
 	<array>
 
+
 		<dict>
 		    <key>cell</key>
 		    <string>PSGroupCell</string>
 		    <key>headerCellClass</key>
 		    <string>HBPackageNameHeaderCell</string>
 		    <key>packageIdentifier</key>
-		    <string>dev.cobre.podhider</string>
+		    <string>dev.cobre.blurhider</string>
 			<key>titleColor</key>
     		<string>#D98035</string>
     		<key>subtitleColor</key>
@@ -23,14 +24,20 @@
 		    </array>
 		</dict>
 		<dict>
+		  <key>cell</key>
+		  <string>PSGroupCell</string>
+		  <key>footerText</key>
+		  <string>Changes require a respring</string>
+		</dict>
+		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>cellClass</key>
 			<string>BHPSwitchWithInfoCell</string>
 			<key>infoTitle</key>
-			<string>Info Title</string>
+			<string>Enable Tweak</string>
 			<key>infoMessage</key>
-			<string>Info Message</string>
+			<string>Use this switch to enable or disable the tweak entirely</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
@@ -38,7 +45,7 @@
 			<key>key</key>
 			<string>BHEnabled</string>
 			<key>label</key>
-			<string>Enable</string>
+			<string>Enable Tweak</string>
 			<key>PostNotification</key>
 			<string>dev.cobre.blurhiderprefs/ReloadPrefs</string>
 		</dict>
@@ -49,7 +56,7 @@
 		  <key>label</key>
 		  <string>Categories</string>
 		  <key>footerText</key>
-		  <string></string>
+		  <string>Changes require a respring</string>
 		</dict>
 
 		<dict>
@@ -58,9 +65,9 @@
 			<key>cellClass</key>
 			<string>BHPSwitchWithInfoCell</string>
 			<key>infoTitle</key>
-			<string>Info Title</string>
+			<string>App Library Folder Background</string>
 			<key>infoMessage</key>
-			<string>Info Message</string>
+			<string>Hide the background of App Library Categories</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
@@ -69,8 +76,6 @@
 			<string>ALEnabled</string>
 			<key>label</key>
 			<string>App Library Folder Background</string>
-			<key>tintOnColor</key>
-			<string>#C36100</string>
 			<key>PostNotification</key>
 			<string>dev.cobre.blurhiderprefs/ReloadPrefs</string>
 		</dict>
@@ -80,9 +85,9 @@
 			<key>cellClass</key>
 			<string>BHPSwitchWithInfoCell</string>
 			<key>infoTitle</key>
-			<string>Info Title</string>
+			<string>Folder Background</string>
 			<key>infoMessage</key>
-			<string>Info Message</string>
+			<string>Hide the background of Folders</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
@@ -91,8 +96,6 @@
 			<string>FLEnabled</string>
 			<key>label</key>
 			<string>Folder Background</string>
-			<key>tintOnColor</key>
-			<string>#C36100</string>
 			<key>PostNotification</key>
 			<string>dev.cobre.blurhiderprefs/ReloadPrefs</string>
 		</dict>
@@ -102,9 +105,9 @@
 			<key>cellClass</key>
 			<string>BHPSwitchWithInfoCell</string>
 			<key>infoTitle</key>
-			<string>Info Title</string>
+			<string>Dock Background</string>
 			<key>infoMessage</key>
-			<string>Info Message</string>
+			<string>Hide the background of the Dock</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
@@ -113,8 +116,6 @@
 			<string>DKEnabled</string>
 			<key>label</key>
 			<string>Dock Background</string>
-			<key>tintOnColor</key>
-			<string>#C36100</string>
 			<key>PostNotification</key>
 			<string>dev.cobre.blurhiderprefs/ReloadPrefs</string>
 		</dict>
@@ -147,21 +148,8 @@
 		    <string>CobreDev</string>
 		</dict>
 
-		<!-- Big size:
-		<dict>
-		    <key>big</key>
-		    <true/>
-		    <key>cellClass</key>
-		    <string>HBTwitterCell</string>
-		    <key>height</key>
-		    <integer>56</integer>
-		    <key>label</key>
-		    <string>CobreDev</string>
-		    <key>user</key>
-		    <string>CobreDev</string>
-		</dict> -->
 	</array>
 	<key>title</key>
-	<string>blurHiderPrefs</string>
+	<string>BlurHider</string>
 </dict>
 </plist>

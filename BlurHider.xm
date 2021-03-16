@@ -80,7 +80,7 @@ BOOL DKEnabled;
 
 %ctor {
 
-	HBPreferences *preferences = [[HBPreferences alloc] initWithIdentifier:@"dev.cobre.podhiderprefs"];
+	HBPreferences *preferences = [[HBPreferences alloc] initWithIdentifier:@"dev.cobre.blurhiderprefs"];
 
 	[preferences registerBool:&BHEnabled default:YES forKey:@"BHEnabled"];
 	[preferences registerBool:&ALEnabled default:YES forKey:@"ALEnabled"];
