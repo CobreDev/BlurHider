@@ -3,7 +3,9 @@ Name: BlurHider
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Hides blurred backgrounds of App Library categories, Folders, and Dock
-Maintainer: CobreDev
-Author: CobreDev
+Maintainer: CobreDev <cooper@cooperhull.com>
+Author: CobreDev <cooper@cooperhull.com>
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.15.1)
+Depiction: https://repo.cobre.dev/depictions/BlurHider
+Sileodepiction: https://repo.cobre.dev/sileodepictions/BlurHider.json

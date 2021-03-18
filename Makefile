@@ -10,6 +10,7 @@ TWEAK_NAME = BlurHider
 
 BlurHider_FILES = BlurHider.xm
 BlurHider_CFLAGS = -fobjc-arc
+BlurHider_FRAMEWORKS = UIKit Foundation
 BlurHider_EXTRA_FRAMEWORKS += Cephei
 
 include $(THEOS_MAKE_PATH)/tweak.mk

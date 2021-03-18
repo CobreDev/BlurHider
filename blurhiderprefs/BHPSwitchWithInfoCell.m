@@ -29,7 +29,7 @@
     NSString *message = ([self.specifier propertyForKey:@"infoMessage"]) ?: @"No information provided for this cell";
 
     UIAlertController *infoAlert = [UIAlertController alertControllerWithTitle:title message:[message stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"] preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Close" style:UIAlertActionStyleCancel handler:nil];
 
     [infoAlert addAction:cancelAction];
 

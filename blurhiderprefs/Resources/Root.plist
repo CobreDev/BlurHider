@@ -5,14 +5,17 @@
 	<key>items</key>
 	<array>
 
-
 		<dict>
-		    <key>cell</key>
-		    <string>PSGroupCell</string>
-		    <key>headerCellClass</key>
-		    <string>HBPackageNameHeaderCell</string>
-		    <key>packageIdentifier</key>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBPackageNameHeaderCell</string>
+			<!-- <key>icon</key>
+			<string>Icon@3x.png</string> -->
+			<key>packageIdentifier</key>
 		    <string>dev.cobre.blurhider</string>
+			<key>packageNameOverride</key>
+			<string>Blurhider</string>
 			<key>titleColor</key>
     		<string>#D98035</string>
     		<key>subtitleColor</key>
@@ -23,6 +26,7 @@
 		        <string>#5B3100</string>
 		    </array>
 		</dict>
+
 		<dict>
 		  <key>cell</key>
 		  <string>PSGroupCell</string>

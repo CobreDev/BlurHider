@@ -39,11 +39,23 @@ BOOL DKEnabled;
 }
 %end
 
+// Hide Folder Background
 %hook SBFolderIconImageView
 - (void)setBackgroundView : (UIView *)backgroundView {
 	if(FLEnabled) { }
 	else {
 		%orig;
+	}
+}
+%end
+
+%hook SBFolderBackgroundView
+- (id)initWithFrame:(struct CGRect)arg1{
+	if(FLEnabled) {
+  		return NULL;
+	}
+	else {
+		return %orig;
 	}
 }
 %end

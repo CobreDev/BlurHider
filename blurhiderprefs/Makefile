@@ -5,7 +5,7 @@ include $(THEOS)/makefiles/common.mk
 BUNDLE_NAME = BlurHiderPrefs
 
 BlurHiderPrefs_FILES = BHPRootListController.m BHPSwitchWithInfoCell.m
-BlurHiderPrefs_FRAMEWORKS = UIKit
+BlurHiderPrefs_FRAMEWORKS = UIKit Foundation
 BlurHiderPrefs_PRIVATE_FRAMEWORKS = Preferences
 BlurHiderPrefs_INSTALL_PATH = /Library/PreferenceBundles
 BlurHiderPrefs_CFLAGS = -fobjc-arc
