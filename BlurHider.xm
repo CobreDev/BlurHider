@@ -38,6 +38,7 @@ BOOL DKEnabled;
 	}
 }
 %end
+// Lines 43-91 are from https://github.com/hieuvh/HalFiPad. Used with permission
 
 // Hide Folder Background
 %hook SBFolderIconImageView
