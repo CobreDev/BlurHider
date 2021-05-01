@@ -154,7 +154,7 @@ Contributions are what make the open source community such an amazing place to b
 
 If you use any code from this repository please send me a message on [Twitter](https://twitter.com/CobreDev).
 You may not redistribute this source code or packages from it.
-You may not use this project to make profit _unless you talk to me first_
+You may not use this project to make profit _unless you talk to me first_.
 If you have any questions, message me on [Twitter](https://twitter.com/CobreDev).
 
 
