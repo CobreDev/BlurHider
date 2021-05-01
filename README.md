@@ -82,7 +82,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
   <a href="https://repo.cobre.dev/assets/images/BlurHider/2.png">
-    <img src="https://repo.cobre.dev/assets/images/BlurHider/2.png" alt="Screenshot">
+    <img src="https://repo.cobre.dev/assets/images/BlurHider/2.png" width="250" alt="Screenshot">
   </a>
 
 BlurHider is a tweak created to remove background blurs from elements across iOS. This includes Folder backgrounds, Dock backgrounds, and App Library category backgrounds.
@@ -107,19 +107,19 @@ BlurHider is a tweak created to remove background blurs from elements across iOS
 BlurHider includes a simple feature packed preference page. Use these options to customize what aspects of iOS BlurHider affects.
 
   <a href="https://repo.cobre.dev/assets/images/BlurHider/4.png">
-    <img src="https://repo.cobre.dev/assets/images/BlurHider/4.png" alt="Screenshot">
+    <img src="https://repo.cobre.dev/assets/images/BlurHider/4.png"  width="250"alt="Screenshot">
   </a>
 
   <a href="https://repo.cobre.dev/assets/images/BlurHider/1.png">
-    <img src="https://repo.cobre.dev/assets/images/BlurHider/1.png" alt="Screenshot">
+    <img src="https://repo.cobre.dev/assets/images/BlurHider/1.png" width="250" alt="Screenshot">
   </a>
 
   <a href="https://repo.cobre.dev/assets/images/BlurHider/2.png">
-    <img src="https://repo.cobre.dev/assets/images/BlurHider/2.png" alt="Screenshot">
+    <img src="https://repo.cobre.dev/assets/images/BlurHider/2.png" width="250" alt="Screenshot">
   </a>
 
   <a href="https://repo.cobre.dev/assets/images/BlurHider/3.png">
-    <img src="https://repo.cobre.dev/assets/images/BlurHider/3.png" alt="Screenshot">
+    <img src="https://repo.cobre.dev/assets/images/BlurHider/3.png" width="250" alt="Screenshot">
   </a>
 
 
