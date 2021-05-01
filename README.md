@@ -85,6 +85,7 @@
     <img src="https://repo.cobre.dev/assets/images/BlurHider/2.png" width="250" alt="Screenshot">
   </a>
 
+<br/>
 BlurHider is a tweak created to remove background blurs from elements across iOS. This includes Folder backgrounds, Dock backgrounds, and App Library category backgrounds.
 
 
