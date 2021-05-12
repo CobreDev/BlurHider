@@ -9,3 +9,4 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.15.1)
 Depiction: https://repo.cobre.dev/depictions/BlurHider
 Sileodepiction: https://repo.cobre.dev/sileodepictions/BlurHider.json
+Icon: https://raw.githubusercontent.com/CobreDev/BlurHider/main/blurhiderprefs/Resources/Icon%403x.png
