@@ -17,13 +17,13 @@
 			<key>packageNameOverride</key>
 			<string>Blurhider</string>
 			<key>titleColor</key>
-    		<string>#D98035</string>
+    		<string>#E5791A</string>
     		<key>subtitleColor</key>
-			<string>#C36100</string>
+			<string>#B85D00</string>
 		    <key>backgroundGradientColors</key>
 		    <array>
-		        <string>#C36300</string>
-		        <string>#C36300</string>
+		        <string>#5E2E00</string>
+		        <string>#5E2E00</string>
 		    </array>
 		</dict>
 

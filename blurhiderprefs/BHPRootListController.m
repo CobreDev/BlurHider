@@ -8,7 +8,7 @@
 
     if (self) {
         HBAppearanceSettings *appearanceSettings = [[HBAppearanceSettings alloc] init];
-        appearanceSettings.tintColor = [UIColor colorWithRed: 0.76 green: 0.39 blue: 0.00 alpha: 1.00];
+        appearanceSettings.tintColor = [UIColor colorWithRed: 0.72 green: 0.36 blue: 0.00 alpha: 1.00];
 		appearanceSettings.largeTitleStyle = HBAppearanceSettingsLargeTitleStyleNever;
         self.hb_appearanceSettings = appearanceSettings;
     }
