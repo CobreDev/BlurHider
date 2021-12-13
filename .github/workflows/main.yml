@@ -27,10 +27,12 @@ jobs:
     - name: Prepare Theos
       # Don't use @main in production, this repo is specifically for testing it.
       uses: Randomblock1/theos-action@main
+         
+    - name: Prepare Make
       run: |
          brew install make
          echo PATH=\"$(brew --prefix make)/libexec/gnubin:\$PATH\" >> ~/.zprofile
-      
+         
     - name: Build package
       run: |
         rm -f packages/*
